@@ -51,8 +51,8 @@ project:
   toc:
     - file: README.md
       title: "Introducción"
-    # - file: "notebooks/01_EDA_y_Diagnóstico_de_Datos.ipynb"
-      #title: "Análisis Exploratorio"
+    - file: "notebooks/01_eda_preprocessing.ipynb"
+      title: "Análisis Exploratorio"
     - file: "notebooks/02_model_training.ipynb"
       title: "Benchmarking y Evaluación"
     - file: "notebooks/03_interpretability.ipynb"
@@ -60,6 +60,7 @@ project:
 
 site:
   template: book-theme
-  github: https://github.com/apaulag24/telco-churn-mlops.git
+  github: https://github.com/cjarango/telco-churn-mlops
+  base_url: /telco-churn-mlops/
   options:
     style: custom.css
