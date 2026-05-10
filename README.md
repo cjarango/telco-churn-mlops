@@ -2,7 +2,7 @@
 
 # Descripción general del proyecto
 
-Este proyecto documenta y ejecuta el ciclo de vida completo de un modelo de Machine Learning (MLOps) diseñado para predecir la probabilidad de abandono (`churn`) en una compañía de telecomunicaciones. Toda la documentación técnica, los hallazgos del análisis exploratorio y los detalles de la arquitectura se encuentran disponibles y renderizados para su consulta en la página oficial del proyecto: [TU_ENLACE_AQUÍ].
+Este proyecto documenta y ejecuta el ciclo de vida completo de un modelo de Machine Learning (MLOps) diseñado para predecir la probabilidad de abandono (`churn`) en una compañía de telecomunicaciones. Toda la documentación técnica, los hallazgos del análisis exploratorio y los detalles de la arquitectura se encuentran disponibles y renderizados para su consulta en la página oficial del proyecto: [T].
 
 A diferencia de un ejercicio puramente estadístico, este repositorio abarca desde la caracterización del comportamiento del usuario y la mitigación de la fuga de información, hasta la serialización y puesta en producción del artefacto predictivo. El flujo de trabajo integra la construcción de Pipelines robustos, el empaquetado en entornos aislados mediante `Docker` y una validación automatizada a través de `GitHub Actions`, garantizando que el sistema pase de la fase de experimentación local a una arquitectura escalable y técnicamente íntegra.
 
