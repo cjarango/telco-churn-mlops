@@ -25,8 +25,7 @@ jobs:
         run: npm install -g mystmd
 
       - name: Construir el sitio (Build)
-        # Se añade la base-url dinámica para que funcione en cualquier fork
-        run: myst build --html --base-url /${{ github.event.repository.name }}/
+        run: myst build --html
 
       - name: Desplegar en GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
